@@ -1,0 +1,23 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import MyComponent from "../components/MyComponent.astro";
+
+---
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title="" description="" />
+    <link rel="stylesheet" href="/styles/mypage"></head>
+
+		<!-- <MyComponent title="你好，我是赵莎丽" /> -->
+	</head>
+	<body>
+    <h1 class="style2">我是mypage页面</h1>
+    <div class="internal-links">
+			<HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/blog">Blog</HeaderLink>
+			<HeaderLink href="/about">About</HeaderLink>
+			<HeaderLink href="/mypage">MyPage</HeaderLink>
+		</div>
+	</body>
+</html>
